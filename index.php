@@ -3,7 +3,7 @@
 <body>
   
 <?php
-echo "PHP PHP!";
+echo "1st PHP Assignment!";
 ?>
   
 </body>
