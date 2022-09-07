@@ -19,7 +19,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
-        <li class="nav-item>
+        <li class="nav-item">
           <a class="nav-link" href="page2.php">About PHP</a>
         </li>
         <li class="nav-item dropdown">
