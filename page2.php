@@ -1,7 +1,7 @@
 <?php
 require_once("header.php");
 ?>
-<Title> About PHP </Title>
+<title> About PHP </title>
 
 <?php
 require_once("footer.php");
