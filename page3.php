@@ -13,6 +13,8 @@ require_once("header.php");
 <body>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
   Name: <input type="text" name="fname">
+  Major: <input type="text" name="major">
+  Graduation Date: <input type ="text" name="gradyear">
   <input type="submit">
 </form>
 
