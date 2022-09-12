@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
     echo $name;
     echo $mname;
-    echo $gname;
+ 
   }
 }
 ?><br>
