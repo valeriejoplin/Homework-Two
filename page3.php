@@ -25,6 +25,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $gname = $_POST['gradyear'];
   if (empty($name)) {
     echo "Please enter your name";
+  elseif(empty($mname)){
+   echo "Please enter your major";
+     elseif(empty($gname)){
+   echo "Please enter your expected graduation date";
   } else {
     echo $name ;
     echo $mname ;
