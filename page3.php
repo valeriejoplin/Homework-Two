@@ -27,9 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Please enter your name";
   } else {
     echo $name;
-    <h1> </h1>
     echo $mname;
-     <h1> </h1>
     echo $gname;
   }
 }
