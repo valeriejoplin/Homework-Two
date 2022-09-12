@@ -21,14 +21,14 @@ require_once("header.php");
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST['fname'];
-  $name = $_POST['major'];
-  $name = $_POST['gradyear'];
+  $mname = $_POST['major'];
+  $gname = $_POST['gradyear'];
   if (empty($name)) {
     echo "Please enter your name";
   } else {
     echo $name;
-    echo $name;
-    echo $name;
+    echo $mname;
+    echo $gname;
   }
 }
 ?>
