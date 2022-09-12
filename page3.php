@@ -20,10 +20,29 @@ require_once("header.php");
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  // collect value of input field
   $name = $_POST['fname'];
   if (empty($name)) {
-    echo "Name is empty";
+    echo "Please enter your name";
+  } else {
+    echo $name;
+  }
+}
+?>
+  <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = $_POST['major'];
+  if (empty($major)) {
+    echo "Please enter your major";
+  } else {
+    echo $name;
+  }
+}
+?>
+   <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = $_POST['gradyear'];
+  if (empty($gradyear)) {
+    echo "Please enter your expected graduation date";
   } else {
     echo $name;
   }
