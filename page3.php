@@ -30,12 +30,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }else if(empty($gname)){
    echo "Please enter your expected graduation date";
   } else {
-    echo $name  $mname  $gname;
+    echo $name
+    echo $mname
+    echo $gname;
   }
 }
 ?>
-
-
 </body>
 </html>
   
