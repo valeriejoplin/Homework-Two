@@ -1,3 +1,6 @@
+<?php
+require_once("header.php");
+?>
 <!DOCTYPE html>
 
 <html>
@@ -7,7 +10,7 @@
 <?php
 {
 
-echo "Hello welcome!";
+echo "Hello, welcome to my website!";
 
 }
 
