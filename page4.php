@@ -11,7 +11,7 @@ require_once("header.php");
 {
 
 echo "Hello, welcome to my website!";
-
+echo "Hope you're enjoying PHP!";
 }
 
 ?>
