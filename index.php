@@ -1,5 +1,10 @@
 <?php
 require_once("header.php");
+functionWelcomeMSG()
+{
+  echo "Hello, welcome to my website."
+  }
+WelcomeMSG()
 ?>
 <!doctype html>
 <html lang="en">
