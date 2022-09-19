@@ -21,12 +21,5 @@ Phone: <input type="text" name="phone"><br>
   </body>
 </html>
 <?php
-functionwelcMsg
-{
-  echo "Hello, welcome!"
-  }
-welcMsg
-?>
-<?php
 require_once("footer.php");
 ?>
