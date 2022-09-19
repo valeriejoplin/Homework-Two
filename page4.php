@@ -10,8 +10,9 @@ require_once("header.php");
 <?php
 {
 
-<br> echo "Hello, welcome to my website!"; <br>
-echo "Hope you're enjoying PHP!";
+echo "Hello, welcome to my website! 
+Hope you're enjoying PHP!";
+
 }
 
 ?>
