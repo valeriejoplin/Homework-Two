@@ -7,7 +7,7 @@
 
     <title>Homework 2 - Valerie Joplin</title>
   </head>
-  <body>
+  <body style ="background-color:blue";>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Homework 2</a>
