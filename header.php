@@ -8,7 +8,8 @@
     <title>Homework 2 - Valerie Joplin</title>
   </head>
   <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light" style ="background-color:blue";>
+   <div style ="background-color:blue";>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Homework 2</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,3 +31,4 @@
     </div>
   </div>
 </nav>
+    </div>
