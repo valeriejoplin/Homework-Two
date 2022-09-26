@@ -11,5 +11,10 @@ function DateFunction(){
 }
   echo DateFunction()
  ?>
+  <?php
+    function WelcomeFunction(){
+    echo $_GET["name"];
+}
+  ?>
 </body>
 
