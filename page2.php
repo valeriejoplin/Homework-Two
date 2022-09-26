@@ -8,7 +8,7 @@ Your email address is: <?php echo $_GET["email"]; ?><br>
 Your phone number is: <?php echo $_GET["phone"]; ?><br>
     
 <a class="btn btn-primary" href="page3.php" role="button">Continue</a>
-
+</body> 
 <?php
 require_once("footer.php");
 ?>
