@@ -20,13 +20,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    echo "Please enter your major";
   }else if(empty($gname)){
    echo "Please enter your expected graduation date";
-  } else {
-     function FunctionOutput(){
-    echo $maname; .
-    echo $miname; .
+  } else 
+    echo $maname;
+    echo $miname;
     echo $gname; 
-}
-  call FunctionOutput()
   }
 }
 ?>
