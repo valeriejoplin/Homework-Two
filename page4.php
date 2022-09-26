@@ -4,7 +4,7 @@ require_once("header.php");
 <body>
 <?php 
 function FirstFunction() {
- echo Welcome;
+ echo Welcome hope you are enjoying PHP;
 }
  echo FirstFunction()
  ?>
