@@ -6,7 +6,8 @@ require_once("header.php");
 function DateFunction(){
   date_default_timezone_set("America/Chicago");
   $currentDateTime = date('m-d-Y H:i:s');
-    echo "It is currently: " $currentDateTime;
+    echo "It is currently: " . 
+      $currentDateTime;
 }
   echo DateFunction()
  ?>
