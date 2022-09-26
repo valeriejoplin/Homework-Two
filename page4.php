@@ -3,12 +3,14 @@ require_once("header.php");
 ?>
 <body>
 <?php 
-function FirstFunction() {
- echo "Welcome, hope you are enjoying learning about PHP!";
+function DateTimeFunction() {
+date_default_timezone_set("America/Chicago");
+echo "The time is " .
+date("h:i:sa");
 }
- echo FirstFunction()
+ echo DateTimeFunction()
  ?>
+ 
 </body>
-
 </html>
 
