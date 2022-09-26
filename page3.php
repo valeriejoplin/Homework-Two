@@ -11,19 +11,19 @@ require_once("header.php");
   <input type="submit">
 </form>
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $maname = $_POST['major'];
-  $miname = $_POST['minor'];
-  $gname = $_POST['gradyear'];
-  if (empty($maname)) {
-    echo "Please enter your name";
-  }else if(empty($miname)){
-   echo "Please enter your major";
-  }else if(empty($gname)){
+  $major = $_POST['major'];
+  $minor = $_POST['minor'];
+  $gradyr = $_POST['gradyear'];
+  if (empty($major)) {
+    echo "Please enter your major";
+  }else if(empty($minor)){
+   echo "Please enter your minor, if none, enter "None" ";
+  }else if(empty($gradyr)){
    echo "Please enter your expected graduation date";
   } else 
-    echo $maname;
-    echo $miname;
-    echo $gname; 
+    echo $major;
+    echo $minor;
+    echo $gradyr; 
   }
 }
 ?>
