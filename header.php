@@ -23,7 +23,7 @@
           <a class="nav-link" href="page3.php">Student Information</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="page4.php">Welcome</a>
+          <a class="nav-link" href="page4.php">Date & Time</a>
         </li>
         </li>
       </ul>
