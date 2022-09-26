@@ -4,7 +4,7 @@ require_once("header.php");
 <body>
 <?php 
 function DateFunction(){
-  $currentDateTime = date('Y-m-d H:i:s');
+  $currentDateTime = date('m-d-Y H:i:s');
     echo $currentDateTime;
 }
   echo DateFunction()
