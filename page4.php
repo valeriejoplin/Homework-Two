@@ -1,7 +1,7 @@
 <?php
 require_once("header.php");
 ?>
-<h1>
+<h2>
 <?php 
 function DateFunction(){
   date_default_timezone_set("America/Chicago");
@@ -11,5 +11,5 @@ function DateFunction(){
 }
   echo DateFunction()
  ?>
-</h1>
+</h2>
 
