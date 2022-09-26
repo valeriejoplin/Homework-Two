@@ -5,11 +5,11 @@ require_once("header.php");
 <?php 
 function DateFunction(){
     $dt = new DateTime();
-    echo $dt->format('Y-m-d H:i:s');
+    echo "The current date and time are " . 
+        $dt->format('Y-m-d H:i:s');
 }
   echo DateFunction()
  ?>
  
 </body>
 </html>
-
