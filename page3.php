@@ -3,6 +3,7 @@ require_once("header.php");
 ?>
 <html>
 <body>
+  <h1> Enter your student information </h1>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
   Name: <input type="text" name="fname">
   Major: <input type="text" name="major">
