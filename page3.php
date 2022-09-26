@@ -1,7 +1,6 @@
 <?php
 require_once("header.php");
 ?>
-
   <h3> Enter your student information below </h3>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
   Name: <input type="text" name="fname">
@@ -28,8 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 ?>
-
-  
 <?php
 require_once("footer.php");
 ?>
