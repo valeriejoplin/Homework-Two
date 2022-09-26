@@ -9,11 +9,11 @@ function DateFunction(){
     echo "The current Date/Time: " . 
       $currentDateTime;
 }
+  echo DateFunction()
 function WelcomeFunction(){
     echo "Welcome! " . $_GET["name"];
 }
-  echo DateFunction()
-    echo WelomeFunction()
+  echo WelcomeFunction()
  ?>
  
 </body>
