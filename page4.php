@@ -3,6 +3,7 @@ require_once("header.php");
 ?>
 <body>
 <?php 
+  echo WelomeFunction()
 function DateFunction(){
   date_default_timezone_set("America/Chicago");
   $currentDateTime = date('m-d-Y H:i:s');
