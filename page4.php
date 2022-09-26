@@ -10,11 +10,6 @@ function DateFunction(){
       $currentDateTime;
 }
   echo DateFunction()
-function WelcomeFunction(){
-    echo "Welcome! " . $_GET["name"];
-}
-  echo WelcomeFunction()
  ?>
- 
 </body>
 
