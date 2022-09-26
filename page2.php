@@ -7,7 +7,7 @@ require_once("header.php");
 Your email address is: <?php echo $_GET["email"]; ?><br>
 Your phone number is: <?php echo $_GET["phone"]; ?><br>
 
-    <h2> Click the button below to fill out more information! </h2>
+    <h3> Click the button below to fill out more information! </h3>
 <a class="btn btn-primary" href="page3.php" role="button">Continue</a>
 </body> 
 <?php
