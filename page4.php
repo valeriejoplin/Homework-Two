@@ -3,12 +3,19 @@ require_once("header.php");
 ?>
 <body>
 <?php 
-function DateTimeFunction() {
+function TimeFunction() {
 date_default_timezone_set("America/Chicago");
 echo "The time is " .
 date("h:i:sa");
 }
- echo DateTimeFunction()
+function DateFunction(){
+    $dt = new DateTime();
+    echo $dt->format('Y-m-d H:i:s');
+}
+ 
+ echo TimeFunction()
+  echo DateFunction()
+  
  ?>
  
 </body>
