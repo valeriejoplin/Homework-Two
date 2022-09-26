@@ -11,7 +11,7 @@ require_once("header.php");
   <input type="submit">
 </form>
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $maame = $_POST['major'];
+  $maname = $_POST['major'];
   $miname = $_POST['minor'];
   $gname = $_POST['gradyear'];
   if (empty($maname)) {
