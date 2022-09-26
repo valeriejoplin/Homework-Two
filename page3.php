@@ -3,16 +3,13 @@ require_once("header.php");
 ?>
 <html>
 <body>
-  <?php echo "Enter your student information, " .
-  WelcomeFunction()?>
+  <h3> Fill out your student information below </h3>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-  Name: <input type="text" name="fname">
-  Major: <input type="text" name="major">
+  Name: <input type="text" name="major">
+  Major: <input type="text" name="minor">
   Graduation Date: <input type ="text" name="gradyear">
   <input type="submit">
 </form>
-
-<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST['fname'];
   $mname = $_POST['major'];
@@ -24,9 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }else if(empty($gname)){
    echo "Please enter your expected graduation date";
   } else {
-    echo $name;
-    echo $mname;
-    echo $gname;
+     function FunctionOutput(){
+    echo $name; .
+    echo $maname; .
+    echo $gname; 
+}
+  call FunctionOutput()
   }
 }
 ?>
