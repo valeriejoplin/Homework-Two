@@ -10,7 +10,7 @@ function DateFunction(){
       $currentDateTime;
 }
 function WelcomeFunction(){
-
+    echo "Welcome! " . $_GET["name"];
 }
   echo DateFunction()
  ?>
