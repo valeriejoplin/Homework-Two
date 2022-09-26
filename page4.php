@@ -9,6 +9,9 @@ function DateFunction(){
     echo "The current Date/Time: " . 
       $currentDateTime;
 }
+function WelcomeFunction(){
+
+}
   echo DateFunction()
  ?>
  
