@@ -10,7 +10,7 @@ function FirstFunction() {
  echo "This is my first function."; 
 }
  ?>
-echo MyFunction();
+
 
 
 
